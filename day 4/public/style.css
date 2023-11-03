@@ -1,0 +1,64 @@
+.box
+{
+    width:600px;
+    padding:20px;
+    margin: auto;
+    box-shadow: 0 0 50px grey;
+    border-radius: 20px;
+}
+button
+{
+    border:none;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.delete
+{
+    background-color: red;
+    color:white;
+    margin-left: 80px;
+}
+
+.edit
+{
+    background-color: greenyellow;
+    margin-right: 20px;
+}
+
+.add button
+{
+    background-color: blue;
+    color:white;
+}
+
+.add input
+{
+    width: 400px;
+    border:3px solid green;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.alltask
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 30px;
+}
+
+.task
+{
+    border:2px solid green;
+    border-radius: 5px;
+    width: 400px;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task input
+{
+    border:none;
+}

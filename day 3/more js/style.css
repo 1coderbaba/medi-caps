@@ -1,0 +1,19 @@
+.parent
+{
+    height:250px;
+    width: 350px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content:space-around;
+    /* align-items: flex-end; */
+
+}
+
+.parent div
+{
+    height:50px;
+    width: 50px;
+    border:2px solid black;
+}
